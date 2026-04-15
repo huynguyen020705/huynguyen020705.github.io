@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "CV / Sơ yếu lý lịch"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,56 +9,24 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Học vấn
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **Học viện Công nghệ Bưu chính Viễn thông (PTIT)** * Chuyên ngành: Internet of Things (IoT)
+  * Cơ sở: TP. Hồ Chí Minh
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Kỹ năng
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+| Phân loại | Kỹ năng chi tiết |
+| :--- | :--- |
+| **Vi điều khiển & Phần cứng** | Arduino, ESP8266, ESP32, STM32 |
+| **Lập trình** | C/C++ (Embedded), Python cơ bản |
+| **Thiết kế điện tử** | Thiết kế mạch, Hàn mạch (Soldering), Tối ưu phần cứng |
+| **Công cụ & Phần mềm** | VS Code, Git, STM32CudeIDE, Arduino IDE |
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Dự án tiêu biểu
+
+**1. Đồng hồ điện tử thời gian thực (Real-time Clock & Timer)**
+* **Thời gian:** Tháng 10/2025
+* **Mô tả:** Hệ thống đồng hồ điện tử hiển thị định dạng hh:mm:ss có tích hợp chức năng đếm ngược (timer).
+* **Phần cứng sử dụng:** Vi điều khiển ESP32 làm vi xử lý trung tâm, module 6 LED 7 đoạn để hiển thị.
+* **Vai trò:** Tự lên ý tưởng, thiết kế phần cứng, hàn mạch và lập trình logic điều khiển bằng C/C++.
